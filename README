@@ -1,0 +1,10 @@
+You supply the url_title and it returns the id(s) it has been assigned, as well as the ability to separate the id's by using the separator parameter
+
+Can be used within or outside of channel entries tag
+
+Use as follows:
+
+example: {exp:title_cat url_title="{url_title}" separator="&"}
+	
+url_title (required), can manually put in the url_title or use within channel entries tag, and doing something like url_title="{url_title}" 
+separator (optional), breaks up the ids (if there is more than one returned), so if you did separator="&", it'd return 1&2&3
